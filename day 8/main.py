@@ -1,5 +1,3 @@
-
-from math import prod
 nested_list_row = []
 nested_list_row_dict =[]
 x = []
