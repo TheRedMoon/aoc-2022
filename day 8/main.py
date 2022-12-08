@@ -2,7 +2,6 @@ nested_list_row = []
 nested_list_row_dict =[]
 x = []
 visble_coor = []
-test = ['0', '1', '1', '1']
 dict = {}
 
 def check_if_visible(idx, entry, set):
