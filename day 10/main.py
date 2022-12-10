@@ -10,12 +10,12 @@ def run_instr(cycle, r1, value):
 def run_instr_r2(cycle, res_r2, value):
     mod = cycle % 40
     #only one row forgot to do mod cycle 40 for every row
-    if mod == cycle or mod == value-1 or mod == value + 1:
+    if mod == value or mod == value-1 or mod == value + 1:
         res_r2 += "#"
     else:
         res_r2 += "."
     cycle += 1
-    #40 chars done new line
+    #40
     if cycle % 40 == 0:
         res_r2 += "\n"
 
