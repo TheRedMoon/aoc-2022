@@ -102,8 +102,6 @@ def r1(width, height, paths):
     start_sand = (500 - min_width, 0)
     grid[start_sand[1]][start_sand[0]] = "+"
 
-    print_grid(grid)
-
     simulate_sand_flow(grid, start_sand, width_d, height)
 
 def r2( height, paths):
